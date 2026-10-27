@@ -1,6 +1,6 @@
-const btnLogin = document.getElementById("btn-login")
-const cards = document.getElementsByClassName("card")
-btnLogin.addEventListener("click", () => {
-    cards[0].style.backgroundColor = "red";
+const btnTeste = document.getElementById("btnTeste");
+const texto = document.querySelector(".destaque > p");
+btnTeste.addEventListener("click", () => {
+    texto.textContent = "FELIPE GOSTA DE HALLS";
     
 })
