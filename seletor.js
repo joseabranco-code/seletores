@@ -1,6 +1,6 @@
 const btnLogin = document.getElementById("btn-login")
-const divAzul = document.getElementById("azul")
+const cards = document.getElementsByClassName("card")
 btnLogin.addEventListener("click", () => {
-    divAzul.style.backgroundColor = "green"
+    cards[0].style.backgroundColor = "red";
     
 })
